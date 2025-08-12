@@ -1,14 +1,8 @@
 {
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/(.*)", "destination": "/index.html" }
   ],
   "functions": {
-    "build": {
-      "src": "build/**",
-      "use": "@vercel/static"
-    }
+    // Remove the inner "build" object or specify functions if needed
   }
 }
